@@ -1,0 +1,257 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+  }
+
+  h2{
+    font-weight: bold;
+  }
+
+  p {
+    font-family: 'Jura', sans-serif;
+  }
+  
+  .h1-break { 
+    word-break:break-word;
+  }
+
+  .intro-text {
+    max-width: 100%;
+  }
+
+  /* Navigation bar */
+  
+  /* General */
+#mainNav {
+    background-color: #145364;
+    max-width: 100%;
+}
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .nav-link {
+    color:white;
+  }
+
+  /* Navigation dropdown menu */
+.dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    color: white;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: white;
+      text-decoration: none;
+      background: white;
+  }
+  
+  #menu {
+    color: white;
+  }
+  
+  /* Jumbotron*/ 
+
+  .heroBackground {
+  background-image: url("../images/codioful.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(90vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 !important;
+  max-width: 100%;
+}
+
+.jumboCopy {
+    width: 80%;
+    color: white;
+  }
+
+  #about {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    background-color:white;
+  }
+
+  #about .card {
+    background-color:white;
+  }
+
+  #about h2{
+    border-top: 0.2rem #145364 solid;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    color:#145364;
+  }
+
+  #about-img{
+    background-color: white;
+    margin-top: 4rem;
+    border-radius: 50%;
+  }
+
+  .card-img-top {
+    height:18rem;
+    width: 18rem;
+    }
+
+  .custom-button-resume {
+    color:#145364;
+    margin: 0.65rem;
+    padding: 0.6rem;
+    display: center;
+    background-color: #FE9B3D;
+  }
+
+  .custom-button-resume:hover{
+    background-color: initial !important;
+    border-color: initial !important;
+  }
+
+  .card-text {
+    font-style: italic;
+    font-size:x-large;
+  }
+
+  #skills {
+    background-color:#FDCA3B;
+    height: 23rem;
+    max-width: 100%;
+  }
+
+  #skills h2 {
+    padding: 0.3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color:#145364;
+  }
+
+.skills-card-body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:#FDCA3B;
+}
+
+  .custom-button {
+    background-color: #145364;
+    color: #ffffff;
+    margin:0.5rem 0.5rem;
+    padding: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.25rem;
+  }
+
+  .custom-button:hover {
+    background-color: initial !important;
+    border-color: initial !important;
+  }
+
+  #skills {
+    margin-top: 3rem;
+  }
+
+  #work-title {
+    height: 8rem;
+    background-color: #FE9B3D;
+    color: #145364;
+    padding-top:3rem;
+    text-align: center;
+    font-size: larger;
+  }
+ 
+  .card {
+    margin: 0.625rem 0;
+  }
+
+ .big-card-img {
+    max-height: 37rem;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .big-card-img:hover {
+    opacity: 1.0;
+ }
+
+  .card-img {
+    max-height: 16rem;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .card-img:hover {
+    opacity: 1.0;
+  }
+
+.title-subtitle {
+    position: absolute;
+    left:0;
+    bottom:30px;
+    padding: 8px 16px;
+    background-color: #FE9B3D;
+    color:#145364;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.title-subtitle .card-subtitle {
+    color:#145364 !important; 
+    font-size:small;
+}
+
+.contact{
+    background-color: #FE9B3D;
+    margin-top: 5rem;
+}
+
+i {
+    padding:3rem;
+    font-size: xx-large;
+    color: #145364;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+    border: none;
+}
+
+i:hover {
+    background-color: white;
+    margin-top: 0px;
+    border-radius: 50%;
+    -moz-box-shadow: 0px 0px 4px 1px grey;
+    -webkit-box-shadow: 0px 0px 4px 1px grey;
+    box-shadow: 0px 0px 4px 1px  grey;
+}
+
+footer {
+    background-color: #145364;
+    margin: 0 auto;
+    height: 3.75rem;
+    color:white;
+    padding-right: 1.5rem;
+    font-size: large;
+}
+
+footer p {
+    margin-top: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1.5rem;
+}
+
