@@ -1,67 +1,72 @@
-/* Text */
+/*Sets the font family of all headings on the page*/
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Anton', sans-serif;
   }
-
+/*Sets the font weight of h2 elements on the page*/
   h2{
     font-weight: bold;
   }
-
+/*Sets the font family of paragraphs on the page*/
   p {
     font-family: 'Jura', sans-serif;
   }
-  
+
+  /*Jumbotron*/
+  /*Break lines of jumbotron intro-text container*/
   .h1-break { 
     word-break:break-word;
   }
-
+/*Sets max width of jumbotron intro-text*/
   .intro-text {
     max-width: 100%;
   }
 
   /* Navigation bar */
-  
-  /* General */
-#mainNav {
+  /*Sets the background color and max width of the navigation bar*/
+  #mainNav {
     background-color: #145364;
     max-width: 100%;
 }
-
+/*Sets the margin left and right of the navigation bar*/
   .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
   }
+  /*Sets the padding right of the navbar logo*/
   .navbar-brand img {
-    padding-right: 15px;
-    width: 65px;
+    padding-right: 0.9375rem;
+    width: 4.0625rem;
   }
+  /*Sets the margin of the line items belonging to the unordered list in the navbar section*/
   .nav-item {
     margin: 0px 15px;
   }
-
+/*Sets the color of the text of the navbar anchor links*/
   .nav-link {
     color:white;
   }
 
   /* Navigation dropdown menu */
+  /*Sets the background image, color and size of the background as well as the color of the anchor links text*/
 .dropdown-menu {
     background: url("../images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
     color: white;
   }
+  /*Sets the color, text decoration and background color of the anchor links on hover*/
   .dropdown-item:focus, .dropdown-item:hover {
       color: white;
       text-decoration: none;
       background: white;
   }
-  
+  /*Sets the color of text for menu button*/
   #menu {
     color: white;
   }
   
   /* Jumbotron*/ 
-
+ /*Sets the background image, size and specifies that background is not repeated. It also sets the jumbotron's height, layout properties and align the items and justifies content to the center. Sets the border radius (!important keyword is used to override any other border-radius declarations), and max width */
   .heroBackground {
   background-image: url("../images/codioful.png");
   background-size: cover;
@@ -73,40 +78,40 @@ h1, h2, h3 , h4, h5, h6 {
   border-radius: 0 !important;
   max-width: 100%;
 }
-
+/*Sets the max width and color of the text in the jumbotron*/
 .jumboCopy {
     width: 80%;
     color: white;
   }
-
+/*Sets the margin top and bottom and the background color of the about section*/
   #about {
     margin-top: 4rem;
     margin-bottom: 3rem;
     background-color:white;
   }
-
+/*Sets the background color of the about card in the about section*/
   #about .card {
     background-color:white;
   }
-
+/*Sets the borde top so that a line is displayed above the card heading. Also sets the padding, margin bottom and color of the heading.*/
   #about h2{
     border-top: 0.2rem #145364 solid;
     padding: 0.5rem;
     margin-bottom: 1.5rem;
     color:#145364;
   }
-
+/*Sets the background color, the margin top and the border radius of the image in the card in the about section*/
   #about-img{
     background-color: white;
     margin-top: 4rem;
     border-radius: 50%;
   }
-
+/*Sets the height and width of the image in the card in the about section*/
   .card-img-top {
     height:18rem;
     width: 18rem;
     }
-
+/*Sets the color of the text, the background color and the margin and padding of the download resume button in the about card. It also displayes the button in the center*/
   .custom-button-resume {
     color:#145364;
     margin: 0.65rem;
@@ -114,37 +119,39 @@ h1, h2, h3 , h4, h5, h6 {
     display: center;
     background-color: #FE9B3D;
   }
-
+/*Sets the background color of the button to its initial value and the background color and text color on hover*/
   .custom-button-resume:hover{
     background-color: initial !important;
-    border-color: initial !important;
+    border-color: #145364 !important;
+    color: #145364!important;
   }
-
+/*Sets the font style and size of the text in the card*/
   .card-text {
     font-style: italic;
     font-size:x-large;
   }
-
+/*Sets the background color, the height, the max width and the margin top of the Skills section*/
   #skills {
     background-color:#FDCA3B;
     height: 23rem;
     max-width: 100%;
+    margin-top: 3rem;
   }
-
+/*Sets the padding, margin top and bottom and color of the text of the skills card heading*/
   #skills h2 {
     padding: 0.3rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     color:#145364;
   }
-
+/*It position the text in the center and aligns it in the center and sets the background color*/
 .skills-card-body {
     text-align: center;
     justify-content: center;
     align-items: center;
     background-color:#FDCA3B;
 }
-
+/*Styles the buttons in the Skills section. Sets the background color, the text color and the padding and margin. It also aligns and positions the items and content to the center. Sets the border radius and color.*/
   .custom-button {
     background-color: #145364;
     color: #ffffff;
@@ -153,17 +160,15 @@ h1, h2, h3 , h4, h5, h6 {
     align-items: center;
     justify-content: center;
     border-radius: 1.25rem;
+    border-color: #145364;
   }
-
+/*Sets the background, border and text color on hover*/
   .custom-button:hover {
     background-color: initial !important;
-    border-color: initial !important;
+    border-color: #145364 !important;
+    color: #145364;
   }
-
-  #skills {
-    margin-top: 3rem;
-  }
-
+/*Sets the height, the padding top and aligns text to the center. It also sets the background color and color of the text and size of the font*/
   #work-title {
     height: 8rem;
     background-color: #FE9B3D;
@@ -172,31 +177,31 @@ h1, h2, h3 , h4, h5, h6 {
     text-align: center;
     font-size: larger;
   }
- 
+ /*Sets the margin of the cards in the Work section*/
   .card {
     margin: 0.625rem 0;
   }
-
+/*Sets the max height of the images in the card for the featured project in the Work section. It also sets the image opacity and set the transition time between the image being displayed with and without opacity */
  .big-card-img {
     max-height: 37rem;
     opacity: 0.5;
     transition: opacity 0.3s ease-in-out;
   }
-
+/*Sets the opacity of the image in the featured project on hover */
   .big-card-img:hover {
     opacity: 1.0;
  }
-
+/*Sets the max height and the opacity. It also sets the image opacity and set the transition time between the image being displayed with and without opacity  */
   .card-img {
     max-height: 16rem;
     opacity: 0.5;
     transition: opacity 0.3s ease-in-out;
   }
-
+/*Sets the opacity of the image in the featured project on hover*/
   .card-img:hover {
     opacity: 1.0;
   }
-
+/*Sets the position of the headings in the cards and the padding. It also sets the background color, text color and box-shadow color and size*/
 .title-subtitle {
     position: absolute;
     left:0;
@@ -206,27 +211,27 @@ h1, h2, h3 , h4, h5, h6 {
     color:#145364;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-
+/*Sets the headings of the cards text color and size*/
 .title-subtitle .card-subtitle {
     color:#145364 !important; 
     font-size:small;
 }
-
+/*Sets the background color and margint top of the Contact section*/
 .contact{
     background-color: #FE9B3D;
     margin-top: 5rem;
 }
-
+/*Sets the padding, font size and color of the font awesome brand icons in the Contact section. It also sets the elements status transition times and removes the border*/
 i {
     padding:3rem;
     font-size: xx-large;
     color: #145364;
-    -webkit-transition: all 200ms linear;
-    -moz-transition: all 200ms linear;
-    transition: all 200ms linear;
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    transition: all 100ms linear;
     border: none;
 }
-
+/*Sets the background color margin top, the border radius, the box shadow color on hover*/
 i:hover {
     background-color: white;
     margin-top: 0px;
@@ -235,7 +240,7 @@ i:hover {
     -webkit-box-shadow: 0px 0px 4px 1px grey;
     box-shadow: 0px 0px 4px 1px  grey;
 }
-
+/*Sets the background color and the text color and size as well as the margin, padding right and height of the footer.*/
 footer {
     background-color: #145364;
     margin: 0 auto;
@@ -244,11 +249,11 @@ footer {
     padding-right: 1.5rem;
     font-size: large;
 }
-
+/*Sets the margin top of the paragraph in the footer section*/
 footer p {
     margin-top: 1rem;
 }
-
+/*Sets color of the text and padding left of the anchor link in the footer section and removes the link text decoration*/
 footer a {
     text-decoration: none;
     color: white;
