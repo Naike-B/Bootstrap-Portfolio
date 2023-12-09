@@ -14,7 +14,9 @@ N/A
 
 To use this page, navigate to [Bootstrap-Portfolio](https://naike-b.github.io/Bootstrap-Portfolio/). You can use the links at the top (on the right hand side), to be redirected to the relative section of the page where you can review the related content.
 
-Here's how the page looks:
+Here's how the page looks:  
+
+
 ![alt Portfolio page](images/bootstrap-portfolio.gif)
 
 
